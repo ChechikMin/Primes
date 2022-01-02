@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
         std::cout<<"Для нахождения простых чисел заданного количества:"<<tmp<<"\n";
         
         }
-    else
+    if(tmp)
         std::cout<<"Неправильный ввод!\n";
 
 	std::cout<<"Было потрачено:"<<duration.count()<<"s "<<global_memory+sizeof (prime)<<"byte\n";
